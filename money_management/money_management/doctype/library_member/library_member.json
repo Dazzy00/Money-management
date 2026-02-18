@@ -10,7 +10,8 @@
   "last_name",
   "email",
   "phone",
-  "plan"
+  "plan",
+  "full_name"
  ],
  "fields": [
   {
@@ -42,12 +43,17 @@
    "fieldtype": "Link",
    "label": "Plan",
    "options": "Library Membership"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-12 17:17:22.890544",
+ "modified": "2026-02-17 17:02:41.960713",
  "modified_by": "Administrator",
  "module": "Money management",
  "name": "Library Member",

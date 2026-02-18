@@ -9,6 +9,7 @@
   "section_break_in3v",
   "amended_from",
   "applicant",
+  "applicants_name",
   "book",
   "transaction_date",
   "status"
@@ -55,13 +56,18 @@
    "label": "Status",
    "options": "Draft\nReturned\nOverdue",
    "reqd": 1
+  },
+  {
+   "fieldname": "applicants_name",
+   "fieldtype": "Data",
+   "label": "Applicant's name"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-02-09 16:41:48.096788",
+ "modified": "2026-02-18 16:37:57.415507",
  "modified_by": "Administrator",
  "module": "Money management",
  "name": "Loan",
